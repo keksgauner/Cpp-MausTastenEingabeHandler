@@ -15,9 +15,8 @@ void clearConsole(HANDLE hStdOut);
 int main()
 {
 	typo("Hallo Welt");
-    typo("Hallo Ich Bin C++");
-	std::this_thread::sleep_for(std::chrono::milliseconds(500));
 	typo("Ich bin ein Programm, das in C++ geschrieben wurde");
+    std::this_thread::sleep_for(std::chrono::milliseconds(500));
 	typo("Ich wurde nur geschriben, um Tasten/Maus am Bildschirm live zu simulieren");
 	std::this_thread::sleep_for(std::chrono::milliseconds(500));
 	
