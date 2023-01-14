@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HalloIchBinC++", "HalloIchBinC++\HalloIchBinC++.vcxproj", "{9BBC3646-81B2-4536-8EE3-5B349400BA5C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MausTastaturEingabe", "MausTastaturEingabe\MausTastaturEingabe.vcxproj", "{9BBC3646-81B2-4536-8EE3-5B349400BA5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
