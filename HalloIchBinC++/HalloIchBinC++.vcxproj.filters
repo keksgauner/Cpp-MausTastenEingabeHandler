@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HalloIchBinC++.cpp">
+    <ClCompile Include="MausTastaturEingabe.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
