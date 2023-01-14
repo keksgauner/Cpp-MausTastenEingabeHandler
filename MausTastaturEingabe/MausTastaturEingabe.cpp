@@ -19,6 +19,9 @@ int main()
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 	typo("Ich wurde nur geschriben, um Tasten/Maus am Bildschirm live zu simulieren");
 	std::this_thread::sleep_for(std::chrono::milliseconds(500));
+	typo("Drücke nach dieser Nachricht eine beliebige Taste oder bewege die Maus. Maustasten sind auch möglich");
+	typo("Denke daran dass das Programm mit ESC beendet werden kann");
+    std::this_thread::sleep_for(std::chrono::milliseconds(500));
 	
 	// Anstatt ein std array mit INPUT_RECORD 
     // nutzen wir ein INPUT_RECORD array (INPUT_RECORD irInBuf[128] mehr dazu unterhalb), weil obwohl SonarLint meckert, dass wir das nicht tun sollen
@@ -170,7 +173,7 @@ void typo(const char* text)
 		// Wir schreiben das zeichen in die Konsole
 		std::cout << text[i];
 		// Wir warten 100ms
-		std::this_thread::sleep_for(std::chrono::milliseconds(100));
+		std::this_thread::sleep_for(std::chrono::milliseconds(50));
 	}
 	// Wir gehen eine Zeile nach unten
 	std::cout << std::endl;
